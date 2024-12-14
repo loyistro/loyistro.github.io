@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on 陸壹士多 | Loyistro</title>
+    <link>https://loyistro.github.io/page/</link>
+    <description>Recent content in Pages on 陸壹士多 | Loyistro</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Dec 2024 16:07:04 +0800</lastBuildDate>
+    <atom:link href="https://loyistro.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://loyistro.github.io/page/about/</link>
+      <pubDate>Sat, 14 Dec 2024 16:07:04 +0800</pubDate>
+      <guid>https://loyistro.github.io/page/about/</guid>
+      <description>&lt;p&gt;Hello, I&amp;rsquo;m Louis.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
