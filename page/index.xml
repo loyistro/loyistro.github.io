@@ -9,11 +9,11 @@
     <lastBuildDate>Sat, 14 Dec 2024 16:07:04 +0800</lastBuildDate>
     <atom:link href="https://loyistro.github.io/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
+      <title>关于 | About</title>
       <link>https://loyistro.github.io/page/about/</link>
       <pubDate>Sat, 14 Dec 2024 16:07:04 +0800</pubDate>
       <guid>https://loyistro.github.io/page/about/</guid>
-      <description>&lt;p&gt;Hello, I&amp;rsquo;m Louis.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;关于我&#34;&gt;关于我&lt;/h2&gt;&#xA;&lt;p&gt;我是 Loyistro，主要是从中文「陸壹士多」衍生出来的谐音，本意是 &lt;code&gt;一个叫陸壹拾的人开的一家陈列想法和经历的士多店&lt;/code&gt; ，然后就歪成了现在这个名称，不过我倒挺喜欢的。&lt;/p&gt;&#xA;&lt;p&gt;INFJ，一个对解谜、奇幻、工具略有兴趣的产品人。&lt;/p&gt;&#xA;&lt;p&gt;我不确定自己对写作是否有兴趣和依赖，倒是有写了十几年的日记，虽然现在并没有很强的热情去频繁地写，但我总会想起一个场景：高中宿舍里住着的几个人各自躺在床上，恣意散发着对虫洞、思想、命运等不着边际的话题的暇想。&lt;/p&gt;&#xA;&lt;p&gt;或许这代表着我还是很怀念当年那个不断涌现想法的自己，于是在文字、声音、视频这几种方式中，选了应该算是最方便记录和回顾的文字，在互联网环境倒退的现在，开始用回了博客。&lt;/p&gt;&#xA;&lt;h2 id=&#34;博客建站&#34;&gt;博客建站&lt;/h2&gt;&#xA;&lt;p&gt;大概每个博客人第一篇文章都是自己建站的相关记录吧，我的过程也没有什么新意，就不单独写了简单说下就好：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;博客框架：Hugo + Github Pages + Github Action 部署的，凭几个关键字你就能找到很多资料了；&lt;/li&gt;&#xA;&lt;li&gt;主题：在 Hugo 主题官网看到的 &lt;code&gt;no-style-please&lt;/code&gt;，在 ChatGPT 帮助下根据需要修改了一版放在了 &lt;a href=&#34;https://github.com/loyistro/no-style-please&#34;&gt;Github&lt;/a&gt; 上，喜欢可以自取，感谢 AI 帮助零代码基础的我实现第一个项目；&lt;/li&gt;&#xA;&lt;li&gt;字体：使用国内免费的中⽂字体公益 CDN 服务 &lt;a href=&#34;https://chinese-font.netlify.app/zh-cn/cdn&#34;&gt;字图 CDN&lt;/a&gt; 提供的 &lt;a href=&#34;https://chinese-font.netlify.app/zh-cn/fonts/jhlst/%E4%BA%AC%E8%8F%AF%E8%80%81%E5%AE%8B%E4%BD%93v2_002&#34;&gt;京華老宋体&lt;/a&gt;，主要现在这个阶段我蛮喜欢复古；&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
