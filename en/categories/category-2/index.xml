@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Category 2 on Loyistro</title>
+    <link>https://loyistro.github.io/en/categories/category-2/</link>
+    <description>Recent content in Category 2 on Loyistro</description>
+    <image>
+      <title>Loyistro</title>
+      <url>https://loyistro.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://loyistro.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.139.4</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 16 Dec 2024 15:48:00 +0800</lastBuildDate>
+    <atom:link href="https://loyistro.github.io/en/categories/category-2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://loyistro.github.io/en/about/</link>
+      <pubDate>Mon, 16 Dec 2024 15:48:00 +0800</pubDate>
+      <guid>https://loyistro.github.io/en/about/</guid>
+      <description>&lt;p&gt;About me&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
