@@ -59,6 +59,18 @@
                 href="https://loyistro.github.io/en/archives/"
                 />
   </url><url>
+    <loc>https://loyistro.github.io/en/posts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://loyistro.github.io/zh/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://loyistro.github.io/en/posts/"
+                />
+  </url><url>
     <loc>https://loyistro.github.io/en/search/</loc>
     <xhtml:link
                 rel="alternate"
