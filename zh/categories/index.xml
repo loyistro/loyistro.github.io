@@ -4,42 +4,8 @@
     <title>Categories on Loyistro</title>
     <link>https://loyistro.github.io/zh/categories/</link>
     <description>Recent content in Categories on Loyistro</description>
-    <image>
-      <title>Loyistro</title>
-      <url>https://loyistro.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://loyistro.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
     <generator>Hugo -- 0.139.4</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 16 Dec 2024 15:48:00 +0800</lastBuildDate>
     <atom:link href="https://loyistro.github.io/zh/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Category 1</title>
-      <link>https://loyistro.github.io/zh/categories/category-1/</link>
-      <pubDate>Mon, 16 Dec 2024 15:48:00 +0800</pubDate>
-      <guid>https://loyistro.github.io/zh/categories/category-1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Category 2</title>
-      <link>https://loyistro.github.io/zh/categories/category-2/</link>
-      <pubDate>Mon, 16 Dec 2024 15:48:00 +0800</pubDate>
-      <guid>https://loyistro.github.io/zh/categories/category-2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tag 1</title>
-      <link>https://loyistro.github.io/zh/categories/tag-1/</link>
-      <pubDate>Mon, 16 Dec 2024 15:48:00 +0800</pubDate>
-      <guid>https://loyistro.github.io/zh/categories/tag-1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tag 2</title>
-      <link>https://loyistro.github.io/zh/categories/tag-2/</link>
-      <pubDate>Mon, 16 Dec 2024 15:48:00 +0800</pubDate>
-      <guid>https://loyistro.github.io/zh/categories/tag-2/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
