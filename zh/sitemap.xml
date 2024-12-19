@@ -41,26 +41,10 @@
                 href="https://loyistro.github.io/zh/posts/"
                 />
   </url><url>
-    <loc>https://loyistro.github.io/zh/categories/</loc>
-    <lastmod>2024-12-17T17:49:47+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://loyistro.github.io/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://loyistro.github.io/zh/categories/"
-                />
-  </url><url>
     <loc>https://loyistro.github.io/zh/tags/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2024-12-17T17:49:47+08:00</lastmod>
   </url><url>
     <loc>https://loyistro.github.io/zh/posts/zh2412171749/</loc>
-    <lastmod>2024-12-17T17:49:47+08:00</lastmod>
-  </url><url>
-    <loc>https://loyistro.github.io/zh/categories/%E6%80%9D%E8%80%83/</loc>
     <lastmod>2024-12-17T17:49:47+08:00</lastmod>
   </url><url>
     <loc>https://loyistro.github.io/zh/about/</loc>
@@ -74,6 +58,18 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://loyistro.github.io/zh/about/"
+                />
+  </url><url>
+    <loc>https://loyistro.github.io/zh/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://loyistro.github.io/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://loyistro.github.io/zh/categories/"
                 />
   </url><url>
     <loc>https://loyistro.github.io/zh/archives/</loc>
