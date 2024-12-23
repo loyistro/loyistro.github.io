@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Find on Loyistro</title>
-    <link>https://loyistro.github.io/zh/tags/find/</link>
+    <link>http://localhost:1313/zh/tags/find/</link>
     <description>Recent content in Find on Loyistro</description>
-    <generator>Hugo -- 0.139.4</generator>
+    <generator>Hugo -- 0.139.3</generator>
     <language>zh</language>
     <lastBuildDate>Tue, 17 Dec 2024 17:49:47 +0800</lastBuildDate>
-    <atom:link href="https://loyistro.github.io/zh/tags/find/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/zh/tags/find/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>简单的博客建站记录</title>
-      <link>https://loyistro.github.io/zh/posts/zh2412171749/</link>
+      <link>http://localhost:1313/zh/posts/zh2412171749/</link>
       <pubDate>Tue, 17 Dec 2024 17:49:47 +0800</pubDate>
-      <guid>https://loyistro.github.io/zh/posts/zh2412171749/</guid>
+      <guid>http://localhost:1313/zh/posts/zh2412171749/</guid>
       <description>&lt;p&gt;大概每个博客建站人第一篇都是写自己怎么建起来的吧，幸亏有同好们的分享我才磕磕地也完成了这个过程，因为都大同小异而且已经有足够多的文章了，这里就简单记录一下好了。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;博客框架：经典的 &lt;code&gt;Hugo + Github Pages + Github Action&lt;/code&gt; 组合；&lt;/li&gt;
