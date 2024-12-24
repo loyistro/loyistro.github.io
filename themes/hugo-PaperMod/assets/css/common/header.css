@@ -33,7 +33,7 @@
     pointer-events: none;
     transform: translate(0, -10%);
     border-radius: 6px;
-    margin-inline-end: 8px;
+    margin-inline-end: 3px;     /* 左上角图标和标题的间距 */
 }
 
 button#theme-toggle {

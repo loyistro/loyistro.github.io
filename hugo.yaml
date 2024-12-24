@@ -130,7 +130,7 @@ params:
   label:
     text: 'oyistro'
     icon: '/favicon/apple-touch-icon.png'
-    iconHeight: 35
+    iconHeight: 30
 
   ########## 分析工具站点验证 ##########
 #   analytics:
