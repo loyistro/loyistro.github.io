@@ -46,7 +46,9 @@
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
     <ul class="post-tags">
       {{- range ($.GetTerms $tags) }}
-      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      <!-- 文章标签前加红色#号 -->
+      <li><a href="{{ .Permalink }}"><span style="color: red;">#</span>{{ .LinkTitle }}</a></li>
+      <!-- 文章标签前加红色#号 -->
       {{- end }}
     </ul>
     {{- if (.Param "ShowPostNavLinks") }}
