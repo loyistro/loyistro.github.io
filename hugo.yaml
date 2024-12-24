@@ -13,6 +13,7 @@ languages:
   en:
     languageName: 'English'
     languageCode: 'en'
+    languageAltTitle: 'English'
     contentDir: 'content/en'
     menu:
       main:
@@ -56,6 +57,7 @@ languages:
   zh:
     languageName: '中文'
     languageCode: 'zh'
+    languageAltTitle: '中文'
     contentDir: 'content/zh'
     menu:
       main:
@@ -98,6 +100,8 @@ params:
   DateFormat: '2006/01/01'
   defaultTheme: auto # dark, light
   disableThemeToggle: false
+  enableLangSwitch: true           # 自己新增，开启多语言切换文案
+  displayFullLangName: true         # 自己新增，开启多语言切换文案
 
   ########## 文章页面配置 ##########
   ShowReadingTime: false
