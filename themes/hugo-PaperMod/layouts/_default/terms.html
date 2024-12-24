@@ -18,7 +18,9 @@
     {{- $count := .Count }}
     {{- with site.GetPage (printf "/%s/%s" $type $name) }}
     <li>
-        <a href="{{ .Permalink }}">{{ .Name }} <sup><strong><sup>{{ $count }}</sup></strong></sup> </a>
+        <!-- 标签页标签前加红色#号，首字母大写 -->
+        <a href="{{ .Permalink }}"><span style="color: red;">#</span>{{ .Name | title }} <sup><strong><sup>{{ $count }}</sup></strong></sup> </a>
+        <!-- 标签页标签前加红色#号，首字母大写 -->
     </li>
     {{- end }}
     {{- end }}
