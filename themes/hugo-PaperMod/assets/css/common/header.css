@@ -6,6 +6,7 @@
     margin-inline-start: auto;
     margin-inline-end: auto;
     line-height: var(--header-height);
+    font-family: "Bricolage Grotesque", serif; /* 指定字体 */
 }
 
 .nav a {
@@ -25,6 +26,7 @@
 .logo a {
     font-size: 24px;
     font-weight: 700;
+    font-family: "Bricolage Grotesque", serif; /* 指定字体 */
 }
 
 .logo a img, .logo a svg {
@@ -33,7 +35,7 @@
     pointer-events: none;
     transform: translate(0, -10%);
     border-radius: 6px;
-    margin-inline-end: 3px;     /* 左上角图标和标题的间距 */
+    margin-inline-end: 3px;  /* 左上角图标和标题的间距 */
 }
 
 button#theme-toggle {
