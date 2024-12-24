@@ -74,6 +74,7 @@
     box-shadow: 0 1px 0;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
+    box-shadow: 0 1.5px 0 red; /* 增加链接下划线颜色 */
 }
 
 .post-content a code {
