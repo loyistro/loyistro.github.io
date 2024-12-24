@@ -6,7 +6,7 @@
 
 /* 非暗黑模式下的滚动条轨道背景 */
 .list:not(.dark)::-webkit-scrollbar-track {
-    background: var(--code-bg);
+    background: var(--theme); /* 修改为跟随背景色 */
 }
 
 /* 默认滑块样式 */
@@ -18,7 +18,7 @@
 
 /* 非暗黑模式下的滑块边框颜色 */
 .list:not(.dark)::-webkit-scrollbar-thumb {
-    border: 5px solid var(--code-bg);
+    border: 5px solid var(--theme); /* 修改为跟随背景色 */
 }
 
 /* 滑块悬停时的样式 */
