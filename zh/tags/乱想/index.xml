@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>博文 on Loyistro</title>
-    <link>https://loyistro.github.io/zh/posts/</link>
-    <description>Recent content in 博文 on Loyistro</description>
+    <title>乱想 on Loyistro</title>
+    <link>https://loyistro.github.io/zh/tags/%E4%B9%B1%E6%83%B3/</link>
+    <description>Recent content in 乱想 on Loyistro</description>
     <generator>Hugo -- 0.139.4</generator>
     <language>zh</language>
     <lastBuildDate>Tue, 24 Dec 2024 17:14:00 +0800</lastBuildDate>
-    <atom:link href="https://loyistro.github.io/zh/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://loyistro.github.io/zh/tags/%E4%B9%B1%E6%83%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>当生活不再像 NPC 般互动</title>
       <link>https://loyistro.github.io/zh/posts/2412241714/</link>
       <pubDate>Tue, 24 Dec 2024 17:14:00 +0800</pubDate>
       <guid>https://loyistro.github.io/zh/posts/2412241714/</guid>
       <description>最近我总在寻找一种熟悉的陌生感</description>
-    </item>
-    <item>
-      <title>简单的博客建站记录</title>
-      <link>https://loyistro.github.io/zh/posts/2412241632/</link>
-      <pubDate>Tue, 24 Dec 2024 16:32:00 +0800</pubDate>
-      <guid>https://loyistro.github.io/zh/posts/2412241632/</guid>
-      <description>大概记录这个站点用的框架、主题、字体</description>
     </item>
   </channel>
 </rss>
