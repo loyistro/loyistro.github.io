@@ -6,7 +6,7 @@
     --header-height: 60px;
     --footer-height: 60px;
     --radius: 8px;
-    --theme: rgb(255, 255, 255);
+    --theme: rgb(255, 253, 250); /* 修改亮色主题背景色为米黄色 */
     --entry: rgb(255, 255, 255);
     --primary: rgb(30, 30, 30);
     --secondary: rgb(108, 108, 108);
@@ -30,8 +30,9 @@
 }
 
 .list {
-    background: var(--code-bg);
+    background: var(--theme); /* 修改亮色List页面背景色引用 */
 }
+
 
 .dark.list {
     background: var(--theme);
