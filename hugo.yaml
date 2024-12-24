@@ -94,7 +94,7 @@ params:
 #  title: 'ExampleSite'
 #  description: 'ExampleSite description'
 #  keywords: [Blog, Portfolio, PaperMod]      # 用于 SEO，但似乎已经没用
-  author: 'Loyistro'
+#  author: 'Loyistro'
 #  author: ['Me', 'You'] # multiple authors
 #  images: ['<link or path of image for opengraph, twitter-cards>']       # 用于 OpenGraph 和 Twitter 的图片
   DateFormat: '2006/01/01'

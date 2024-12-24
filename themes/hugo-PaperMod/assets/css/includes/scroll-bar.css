@@ -1,63 +1,70 @@
 /* from reset */
+/* 通用滚动条轨道背景设置 */
 ::-webkit-scrollbar-track {
-    background: 0 0;
+    background: var(--theme); /* 修改为跟随背景色 */
 }
 
+/* 非暗黑模式下的滚动条轨道背景 */
 .list:not(.dark)::-webkit-scrollbar-track {
     background: var(--code-bg);
 }
 
+/* 默认滑块样式 */
 ::-webkit-scrollbar-thumb {
-    background: var(--tertiary);
-    border: 5px solid var(--theme);
-    border-radius: var(--radius);
+    background: var(--tertiary); /* 滑块背景颜色 */
+    border: 5px solid var(--theme); /* 滑块外围边框颜色 */
+    border-radius: var(--radius); /* 滑块圆角半径 */
 }
 
+/* 非暗黑模式下的滑块边框颜色 */
 .list:not(.dark)::-webkit-scrollbar-thumb {
     border: 5px solid var(--code-bg);
 }
 
+/* 滑块悬停时的样式 */
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--secondary);
+    background: var(--secondary); /* 悬停时滑块背景变亮 */
 }
 
 ::-webkit-scrollbar:not(.highlighttable, .highlight table, .gist .highlight) {
-    background: var(--theme);
+    background: var(--theme); /* 其他滚动条背景颜色 */
 }
 
 /* from post-single */
 .post-content .highlighttable td .highlight pre code::-webkit-scrollbar {
-    display: none;
+    display: none; /* 隐藏特定滚动条 */
 }
 
+/* 非表格元素中的滚动条滑块 */
 .post-content :not(table) ::-webkit-scrollbar-thumb {
-    border: 2px solid var(--code-block-bg);
-    background: rgb(113, 113, 117);
+    border: 2px solid var(--code-block-bg); /* 滑块边框 */
+    background: rgb(113, 113, 117); /* 默认颜色 */
 }
 
 .post-content :not(table) ::-webkit-scrollbar-thumb:hover {
-    background: rgb(163, 163, 165);
+    background: rgb(163, 163, 165); /* 悬停颜色 */
 }
 
+/* Gist 表格中的滚动条滑块 */
 .gist table::-webkit-scrollbar-thumb {
-    border: 2px solid rgb(255, 255, 255);
-    background: rgb(173, 173, 173);
+    border: 2px solid rgb(255, 255, 255); /* 滑块边框颜色 */
+    background: rgb(173, 173, 173); /* 滑块颜色 */
 }
 
 .gist table::-webkit-scrollbar-thumb:hover {
-    background: rgb(112, 112, 112);
+    background: rgb(112, 112, 112); /* 悬停时颜色 */
 }
 
+/* 表格中的滚动条滑块样式 */
 .post-content table::-webkit-scrollbar-thumb {
     border-width: 2px;
 }
 
 /* from zmedia */
 @media screen and (min-width: 768px) {
-
-    /* reset */
+    /* 设置滚动条宽度和高度 */
     ::-webkit-scrollbar {
-        width: 19px;
-        height: 11px;
+        width: 19px; /* 滚动条宽度 */
+        height: 11px; /* 滚动条高度 */
     }
 }
