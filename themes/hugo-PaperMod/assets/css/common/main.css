@@ -4,12 +4,6 @@
     max-width: calc(var(--main-width) + var(--gap) * 2);
     margin: auto;
     padding: var(--gap);
-    font-family: "Bricolage Grotesque", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-    "wdth" 100;
 }
 
 .page-header h1 {
