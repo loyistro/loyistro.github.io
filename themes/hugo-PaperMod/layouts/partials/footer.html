@@ -1,7 +1,8 @@
 {{- if not (.Param "hideFooter") }}
 <footer class="footer">
-    
+    <!--引入知识共享协议-->
     {{- partial "creativecommons.html" . }}
+    <!--引入知识共享协议-->
     
     {{- if not site.Params.footer.hideCopyright }}
         {{- if site.Copyright }}
