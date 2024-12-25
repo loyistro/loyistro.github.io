@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Aha Moment on Loyistro</title>
-    <link>https://loyistro.github.io/tags/aha-moment/</link>
+    <link>http://localhost:1313/tags/aha-moment/</link>
     <description>Recent content in Aha Moment on Loyistro</description>
-    <generator>Hugo -- 0.139.4</generator>
+    <generator>Hugo -- 0.139.3</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Dec 2024 17:14:00 +0800</lastBuildDate>
-    <atom:link href="https://loyistro.github.io/tags/aha-moment/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/aha-moment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>When life no longer feels like interacting with NPCs</title>
-      <link>https://loyistro.github.io/articles/2412241714/</link>
+      <link>http://localhost:1313/articles/2412241714/</link>
       <pubDate>Tue, 24 Dec 2024 17:14:00 +0800</pubDate>
-      <guid>https://loyistro.github.io/articles/2412241714/</guid>
+      <guid>http://localhost:1313/articles/2412241714/</guid>
       <description>Lately, I’ve been searching for a sense of familiar unfamiliarity.</description>
     </item>
   </channel>
