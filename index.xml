@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Loyistro</title>
+    <title>Loyistro&#39;s blog</title>
     <link>https://loyistro.github.io/</link>
-    <description>Recent content on Loyistro</description>
-    <generator>Hugo -- 0.139.4</generator>
+    <description>Recent content on Loyistro&#39;s blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Dec 2024 17:14:00 +0800</lastBuildDate>
     <atom:link href="https://loyistro.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -13,29 +13,14 @@
       <link>https://loyistro.github.io/notes/2412241714/</link>
       <pubDate>Tue, 24 Dec 2024 17:14:00 +0800</pubDate>
       <guid>https://loyistro.github.io/notes/2412241714/</guid>
-      <description>&lt;p&gt;有这么几个场景，我一直在回想：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;坐在肯德基的凳子上，收起手机等餐，望着前台的电子招牌，眼角映入周围的环境，突然感觉自己似乎置身在外地的某个地方；&lt;/li&gt;
-&lt;li&gt;某次等红灯，看见路边停放着的垃圾车，可能加上因为是冬日早上又有蓝天阳光，这些氛围的组合也让我突然有种在一个陌生城市的感觉；&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;要怎么描述这种感觉呢，其实并不太容易。我想了很久也没有找到一个很合适描述的方法，或许就是去到一个新环境之后，对周围的一些事物都有一种新奇的感觉，但又不像是一种新鲜感，它是混杂着熟悉与陌生之间的一种状态。&lt;/p&gt;
-&lt;p&gt;我能想到的关联，就是年初的时候去过一次日本东京，我很喜欢那个地方，连带也喜欢那边的氛围。可能是因为自己身处在亚洲国家，所以虽然是在不同的国度看到不同的文化不同的人群不同的习惯，但又会感觉到自己因为跟他们是属于同一个大范围内的人群，或者说有接近的生活习性，所以看到的东西就会有一种既熟悉又陌生的感觉。&lt;/p&gt;
-&lt;p&gt;老实说我很着迷于这种感觉，愈发觉得这是我自已对 &lt;code&gt;旅行意义&lt;/code&gt; 的定义：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;你知道自己来到一个新的地方，可能是一个小乡村、一条小路、一家店铺，你去过的每一个角落，映入你眼帘中的每一眼都有可能是第一次，也是最后一次，所以它背后发生的事情，比如在你离开了之后，店员就会自己下班有自己的生活。这东西离你很近又很远，就会有一种很妙的感觉，就好像是在用第三方的视角去看待他人的世界，有一种灵魂出窍的既视感。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;而日常的生活接触，则是因为已经太熟悉，自己似乎是跟 NPC 交流一样，几轮来回后就结束了，不会有心思去想「之后」会如何。&lt;/p&gt;
-&lt;p&gt;我想我应该要改变现在这种状态才是。&lt;/p&gt;</description>
+      <description>&lt;p&gt;有这么几个场景，我一直在回想：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;坐在肯德基的凳子上，收起手机等餐，望着前台的电子招牌，眼角映入周围的环境，突然感觉自己似乎置身在外地的某个地方；&lt;/li&gt;&#xA;&lt;li&gt;某次等红灯，看见路边停放着的垃圾车，可能加上因为是冬日早上又有蓝天阳光，这些氛围的组合也让我突然有种在一个陌生城市的感觉；&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;要怎么描述这种感觉呢，其实并不太容易。我想了很久也没有找到一个很合适描述的方法，或许就是去到一个新环境之后，对周围的一些事物都有一种新奇的感觉，但又不像是一种新鲜感，它是混杂着熟悉与陌生之间的一种状态。&lt;/p&gt;&#xA;&lt;p&gt;我能想到的关联，就是年初的时候去过一次日本东京，我很喜欢那个地方，连带也喜欢那边的氛围。可能是因为自己身处在亚洲国家，所以虽然是在不同的国度看到不同的文化不同的人群不同的习惯，但又会感觉到自己因为跟他们是属于同一个大范围内的人群，或者说有接近的生活习性，所以看到的东西就会有一种既熟悉又陌生的感觉。&lt;/p&gt;&#xA;&lt;p&gt;老实说我很着迷于这种感觉，愈发觉得这是我自已对 &lt;code&gt;旅行意义&lt;/code&gt; 的定义：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;你知道自己来到一个新的地方，可能是一个小乡村、一条小路、一家店铺，你去过的每一个角落，映入你眼帘中的每一眼都有可能是第一次，也是最后一次，所以它背后发生的事情，比如在你离开了之后，店员就会自己下班有自己的生活。这东西离你很近又很远，就会有一种很妙的感觉，就好像是在用第三方的视角去看待他人的世界，有一种灵魂出窍的既视感。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;而日常的生活接触，则是因为已经太熟悉，自己似乎是跟 NPC 交流一样，几轮来回后就结束了，不会有心思去想「之后」会如何。&lt;/p&gt;&#xA;&lt;p&gt;我想我应该要改变现在这种状态才是。&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>https://loyistro.github.io/about/</link>
+      <link>https://loyistro.github.io/home-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://loyistro.github.io/about/</guid>
-      <description>&lt;h2 id=&#34;about-me&#34;&gt;About me&lt;/h2&gt;
-&lt;p&gt;Hey, I’m Loyistro! I’m a community product manager in the gaming industry who enjoys reading and has recently started trying running.&lt;/p&gt;
-&lt;p&gt;Welcome to my online writing space, where I share my thoughts, life, tools, and other things I want to showcase. Here, you can find my &lt;a href=&#34;https://loyistro.github.io/notes/&#34;&gt;Notes&lt;/a&gt; and all the technical &lt;a href=&#34;https://loyistro.github.io/articles/&#34;&gt;Articles&lt;/a&gt; I’ve written.&lt;/p&gt;
-&lt;p&gt;You may notice that the articles on this website are in different languages. Since English is not my first language, I’m working hard to write in English and hope my expressions don’t cause any confusion.&lt;/p&gt;</description>
+      <guid>https://loyistro.github.io/home-intro/</guid>
+      <description>&lt;h1 class=&#34;heading&#34; id=&#34;so-who-am-i&#34;&gt;&#xA;  So who am I&#xA;  &lt;a href=&#34;#so-who-am-i&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Hey, I’m Loyistro! I’m a community product manager in the gaming industry who enjoys reading and has recently started trying running.&lt;/p&gt;&#xA;&lt;p&gt;Welcome to my online writing space, where I share my thoughts, life, tools, and other things I want to showcase. Here, you can find my &lt;a href=&#34;https://loyistro.github.io/notes/&#34;&gt;Notes&lt;/a&gt; and all the technical &lt;a href=&#34;https://loyistro.github.io/articles/&#34;&gt;Articles&lt;/a&gt; I’ve written.&lt;/p&gt;&#xA;&lt;p&gt;You may notice that the articles on this website are in different languages. Since English is not my first language, I’m working hard to write in English and hope my expressions don’t cause any confusion.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
