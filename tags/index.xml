@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Loyistro&#39;s Personal Website</title>
-    <link>https:/loyistro.github.io/tags/</link>
+    <link>https://loyistro.github.io/tags/</link>
     <description>Recent content in Tags on Loyistro&#39;s Personal Website</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 24 Dec 2024 17:14:00 +0800</lastBuildDate>
-    <atom:link href="https:/loyistro.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://loyistro.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aha Moment</title>
-      <link>https:/loyistro.github.io/tags/aha-moment/</link>
+      <link>https://loyistro.github.io/tags/aha-moment/</link>
       <pubDate>Tue, 24 Dec 2024 17:14:00 +0800</pubDate>
-      <guid>https:/loyistro.github.io/tags/aha-moment/</guid>
+      <guid>https://loyistro.github.io/tags/aha-moment/</guid>
       <description></description>
     </item>
   </channel>
