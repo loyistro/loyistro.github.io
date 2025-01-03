@@ -2,23 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://loyistro.github.io/tags/aha-monent/</loc>
+    <loc>https:/loyistro.github.io/tags/aha-moment/</loc>
     <lastmod>2024-12-24T17:14:00+08:00</lastmod>
   </url><url>
-    <loc>https://loyistro.github.io/</loc>
+    <loc>https:/loyistro.github.io/finds/</loc>
     <lastmod>2024-12-24T17:14:00+08:00</lastmod>
   </url><url>
-    <loc>https://loyistro.github.io/notes/</loc>
+    <loc>https:/loyistro.github.io/</loc>
     <lastmod>2024-12-24T17:14:00+08:00</lastmod>
   </url><url>
-    <loc>https://loyistro.github.io/tags/</loc>
+    <loc>https:/loyistro.github.io/tags/</loc>
     <lastmod>2024-12-24T17:14:00+08:00</lastmod>
   </url><url>
-    <loc>https://loyistro.github.io/notes/2412241714/</loc>
+    <loc>https:/loyistro.github.io/finds/2412241714/</loc>
     <lastmod>2024-12-24T17:14:00+08:00</lastmod>
   </url><url>
-    <loc>https://loyistro.github.io/home-intro/</loc>
+    <loc>https:/loyistro.github.io/section1/</loc>
+    <lastmod>2024-08-18T13:34:54+02:00</lastmod>
   </url><url>
-    <loc>https://loyistro.github.io/articles/</loc>
+    <loc>https:/loyistro.github.io/section2/</loc>
+    <lastmod>2022-08-26T22:30:10+08:00</lastmod>
+  </url><url>
+    <loc>https:/loyistro.github.io/musings/</loc>
+  </url><url>
+    <loc>https:/loyistro.github.io/series/</loc>
   </url>
 </urlset>
