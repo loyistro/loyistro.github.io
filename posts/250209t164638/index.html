@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Create a New Hugo Theme Skeleton | LOYISTRO</title>
+
+
+<link rel="icon" type="image/x-ico" href="favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="favicon/android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+
+
+<link rel="preload" href="https://loyistro.github.io/fonts/BricolageGrotesque[opsz,wdth,wght].woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+<link rel="stylesheet" href="/css/bundle.min.css"
+    integrity="" crossorigin="anonymous">
+<script src="/js/bundle.min.js"
+    integrity="" crossorigin="anonymous" defer>
+</script>
+
+
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-4S3T4YJVT5"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-4S3T4YJVT5');
+        }
+      </script>
+
+
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="header-title">
+    <a href="/">LOYISTRO</a>
+</span>
+
+<div class="header-bar">
+  
+
+  <button id="menu-toggle" aria-label="Toggle Menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 50 50" fill="currentColor" stroke-width="2.5" stroke="currentColor">
+      <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
+      </svg>
+  </button>
+  <menu id="nav-menu" class="hidden">
+      <a href="https://loyistro.github.io/" class="">
+        Home
+      </a>
+      <a href="https://loyistro.github.io/categories/finds/" class="">
+        Finds
+      </a>
+      <a href="https://loyistro.github.io/categories/musings/" class="">
+        Musings
+      </a>
+      <a href="https://loyistro.github.io/tags/" class="">
+        Tags
+      </a>
+  </menu>
+
+</div>
+
+    </header>
+    <main>
+        
+<article>
+  <h1>Create a New Hugo Theme Skeleton</h1>
+
+  
+  
+
+  <div class="post-meta">
+    
+    
+    
+    <time datetime="2025-02-09T16:46:00&#43;08:00">Feb 09, 2025</time>
+  
+    
+    
+      &nbsp; · &nbsp;
+      2 min read
+    
+  
+    
+    &nbsp; · &nbsp;
+    <span class="post-tags">
+      
+      <a href="/tags/hugo/">#Hugo</a>
+  
+    </span>
+  </div>
+
+  <div class="series">
+      <p>&#9432; This post is part of the <a href="https://loyistro.github.io/series/my-hugo-theme/" style="font-weight: bold">My Hugo Theme</a> series.</p>
+    </div><p>After tweaking two Hugo themes<a href="https://github.com/loyistro/gofun"> gofun</a> and <a href="https://github.com/loyistro/no-style-please">no-style-please</a>, I still wasn’t satisfied. I realized I wanted something truly my own, designed from the ground up. Maybe it’s a natural next step: once you have a personal blog, the desire for a fully personalized theme starts to feel inevitable.</p>
+<p>Luckily, with AI tools, even someone without coding experience (like me) can tackle this challenge. As long as you know how to ask the right questions, you’ll get solid answers—though figuring out what the “right” questions are is a whole other topic.</p>
+<p>I’ve named my theme <code>Pace</code> because I like things simple. The name reflects my approach—tweaking the theme at my own pace, adapting it to my needs. It’s going to be a long but exciting journey. If you’re curious about the code, you can check it out <a href="https://github.com/loyistro/Pace">here</a>.</p>
+<p>Now, let’s dive into the process.</p>
+<p>The first step: You might not know exactly what files are needed to design a Hugo theme, but thankfully, Hugo already <a href="https://gohugo.io/commands/hugo_new_theme/">provides</a> a built-in command to generate a default theme framework:</p>
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>hugo new theme <span style="color:#81a1c1">[</span>name<span style="color:#81a1c1">]</span> <span style="color:#81a1c1">[</span>flags<span style="color:#81a1c1">]</span>
+</span></span></code></pre></div><p>Here, <code>[name]</code> is the name of your theme, and <code>[flags]</code> includes some optional parameters. However, they mainly inherit from the parent parameters and don’t seem particularly useful for theme development (at least, I haven’t found a reason to use them, so I just skipped them).</p>
+<p>By default, the generated theme will be placed in the <code>themes</code> folder at the root of your project. Keep in mind that the configuration file is in <code>TOML</code> format. If you, like me, prefer <code>YAML</code>, you can use an online converter like <a href="https://transform.tools/toml-to-yaml">TOML to YAML</a> to switch formats.</p>
+<p>Once your theme is ready, you can use the hugo serve <a href="https://gohugo.io/commands/hugo_server/">command</a> to test it directly inside the theme folder-no need to create a full site:</p>
+<div class="highlight"><pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>hugo server --ignoreCache -D --config themes/&lt;your-theme&gt;/hugo.yaml
+</span></span></code></pre></div><p>Make sure <code>hugo.yaml</code> matches your actual config file and format—it could also be <code>hugo.toml</code>.</p>
+<p>Now, open your browser and go to <a href="http://localhost:1313/">http://localhost:1313/</a>, and you’ll see the default theme in action!</p>
+
+
+</article>
+
+    </main>
+    <footer>
+      <p>&copy; 2024 - 2025 Loyistro. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>

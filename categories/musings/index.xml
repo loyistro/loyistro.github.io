@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Musings on Loyistro&#39;s Blog</title>
+    <title>Musings on LOYISTRO</title>
     <link>https://loyistro.github.io/categories/musings/</link>
-    <description>Recent content in Musings on Loyistro&#39;s Blog</description>
+    <description>Recent content in Musings on LOYISTRO</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 22 Jan 2025 17:01:13 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 09 Feb 2025 16:42:41 +0800</lastBuildDate>
     <atom:link href="https://loyistro.github.io/categories/musings/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Norway&#39;s 100-Year-Old Mystery Package</title>
-      <link>https://loyistro.github.io/posts/2501171049/</link>
+      <title>挪威的百年包裹</title>
+      <link>https://loyistro.github.io/posts/250117t163900/</link>
       <pubDate>Fri, 17 Jan 2025 16:31:00 +0800</pubDate>
-      <guid>https://loyistro.github.io/posts/2501171049/</guid>
-      <description>This is a reflection on a journal I wrote twelve years ago.</description>
+      <guid>https://loyistro.github.io/posts/250117t163900/</guid>
+      <description>重大事件的尽头是派对</description>
     </item>
     <item>
-      <title>The rule of not following is the struggle for resources</title>
-      <link>https://loyistro.github.io/posts/2501101437/</link>
+      <title>不遵守规则的本质是对资源的争夺</title>
+      <link>https://loyistro.github.io/posts/250111t190300/</link>
       <pubDate>Sat, 11 Jan 2025 19:03:00 +0800</pubDate>
-      <guid>https://loyistro.github.io/posts/2501101437/</guid>
-      <description>The rule of not following is the struggle for resources</description>
+      <guid>https://loyistro.github.io/posts/250111t190300/</guid>
+      <description>生物本能无法被克服</description>
     </item>
     <item>
-      <title>The meaning of travel for me</title>
-      <link>https://loyistro.github.io/posts/2412241714/</link>
+      <title>对我来说旅行的意义</title>
+      <link>https://loyistro.github.io/posts/241224t185000/</link>
       <pubDate>Tue, 24 Dec 2024 18:50:00 +0800</pubDate>
-      <guid>https://loyistro.github.io/posts/2412241714/</guid>
-      <description>Observing someone else’s world from a third-party perspective.</description>
+      <guid>https://loyistro.github.io/posts/241224t185000/</guid>
+      <description>或许该用第三方的视角去看待他人的世界</description>
     </item>
   </channel>
 </rss>

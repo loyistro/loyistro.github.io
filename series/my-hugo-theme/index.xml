@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Finds on LOYISTRO</title>
-    <link>https://loyistro.github.io/categories/finds/</link>
-    <description>Recent content in Finds on LOYISTRO</description>
+    <title>My Hugo Theme on LOYISTRO</title>
+    <link>https://loyistro.github.io/series/my-hugo-theme/</link>
+    <description>Recent content in My Hugo Theme on LOYISTRO</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 09 Feb 2025 16:51:35 +0800</lastBuildDate>
-    <atom:link href="https://loyistro.github.io/categories/finds/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://loyistro.github.io/series/my-hugo-theme/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Create a New Hugo Theme Skeleton</title>
       <link>https://loyistro.github.io/posts/250209t164638/</link>
