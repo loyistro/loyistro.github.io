@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Define Your Hugo Content Structure and Colors | LOYISTRO</title>
+
+
+<link rel="icon" type="image/x-ico" href="favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="favicon/android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+
+
+<link rel="preload" href="https://loyistro.github.io/fonts/BricolageGrotesque[opsz,wdth,wght].woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+<link rel="stylesheet" href="/css/bundle.min.css"
+    integrity="" crossorigin="anonymous">
+<script src="/js/bundle.min.js"
+    integrity="" crossorigin="anonymous" defer>
+</script>
+
+
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-4S3T4YJVT5"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-4S3T4YJVT5');
+        }
+      </script>
+
+
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="header-title">
+    <a href="/">LOYISTRO</a>
+</span>
+
+<div class="header-bar">
+  
+
+  <button id="menu-toggle" aria-label="Toggle Menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 50 50" fill="currentColor" stroke-width="2.5" stroke="currentColor">
+      <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
+      </svg>
+  </button>
+  <menu id="nav-menu" class="hidden">
+      <a href="https://loyistro.github.io/" class="">
+        Home
+      </a>
+      <a href="https://loyistro.github.io/categories/finds/" class="">
+        Finds
+      </a>
+      <a href="https://loyistro.github.io/categories/musings/" class="">
+        Musings
+      </a>
+      <a href="https://loyistro.github.io/tags/" class="">
+        Tags
+      </a>
+  </menu>
+
+</div>
+
+    </header>
+    <main>
+        
+<article>
+  <h1>Define Your Hugo Content Structure and Colors</h1>
+
+  
+  
+
+  <div class="post-meta">
+    
+    
+    
+    <time datetime="2025-02-15T17:29:00&#43;08:00">Feb 15, 2025</time>
+  
+    
+    
+      &nbsp; · &nbsp;
+      3 min read
+    
+  
+    
+    &nbsp; · &nbsp;
+    <span class="post-tags">
+      
+      <a href="/tags/hugo/">#Hugo</a>
+  
+    </span>
+  </div>
+
+  <div class="series">
+      <p>&#9432; This post is part of the <a href="https://loyistro.github.io/series/my-hugo-theme/" style="font-weight: bold">My Hugo Theme</a> series.</p>
+    </div><h2 id="the-content-structure">The Content Structure</h2>
+<p><strong>Section</strong></p>
+<ul>
+<li>Definition：Hugo automatically defines content types based on the folder structure.</li>
+<li>Setup：Each top-level folder, such as <code>content/posts/</code> or <code>content/projects/</code>, is recognized as a <code>section</code>, with its name derived from the folder name.</li>
+<li>Reference：<a href="https://gohugo.io/methods/page/type/">https://gohugo.io/methods/page/type/</a></li>
+</ul>
+<p><strong>Type</strong></p>
+<ul>
+<li>Definition：Manually defined content types, such as <em>posts</em>, <em>projects</em>, or <em>about</em>.</li>
+<li>Setup：Specified via <code>front matter (type: posts)</code> or determined by the folder structure (e.g., <code>content/posts/</code> defaults to <code>type</code> &ldquo;posts&rdquo;).</li>
+<li>Reference：<a href="https://gohugo.io/methods/page/type/">https://gohugo.io/methods/page/type/</a></li>
+</ul>
+<p><strong>Layout</strong></p>
+<ul>
+<li>Definition：Determines which template file is used for rendering the content.</li>
+<li>Setup：Specified via <code>front matter (layout: single)</code> or follows Hugo’s default behavior.</li>
+<li>Reference：<a href="https://gohugo.io/methods/page/layout/">https://gohugo.io/methods/page/layout/</a></li>
+</ul>
+<p><strong>Taxonomy</strong></p>
+<ul>
+<li>Definition：A hierarchical or tag-based system to organize content.</li>
+<li>Setup：Configured via <code>front matter (tags or categories)</code>.</li>
+<li>Reference：<a href="https://gohugo.io/content-management/taxonomies/">https://gohugo.io/content-management/taxonomies/</a></li>
+</ul>
+<p><strong>My Approach</strong></p>
+<p>Since my goal is to build a simple personal theme, I have chosen the following approach:</p>
+<ul>
+<li><code>Section</code> and <code>Type</code> are quite similar in definition, so I will rely solely on <code>Section</code> for content classification.</li>
+<li><code>Layout</code> determines the template file used for rendering content. Hugo’s default behavior is sufficient for my needs, so I won’t manually specify layouts.</li>
+<li><code>Taxonomy</code> includes common categories like <code>tags</code> and <code>categories</code> by default. However, I plan to add a custom <code>series</code> taxonomy to organize related articles.</li>
+</ul>
+<h2 id="the-color">The Color</h2>
+<p>Although “minimalism” is my goal, I still want to incorporate my own style and preferences. After all, there are already plenty of well-designed Hugo themes out there.</p>
+<p>I’ve experimented with many color choices. For example, this <a href="https://color-term.com/traditional-color-of-china">website</a> offers a selection of traditional Chinese and Japanese colors, some of which I used in my <a href="https://github.com/loyistro/gofun">gofun</a> theme.</p>
+<p>However, the final color scheme I settled on was inspired by an Emacs editor theme called <a href="https://github.com/rougier/nano-theme">Nano Theme</a>. Its creator, Nicolas, introduced me to a color palette called <a href="https://www.nordtheme.com">Nord Color</a>, and he also explained his philosophy behind its use in editor themes. I really liked his approach—so much so that he even wrote a <a href="https://ar5iv.labs.arxiv.org/html/2008.06030">paper</a> about it.</p>
+<p>Of course, for my personal site, I made some adjustments to his color definitions to make them simpler and more universal:</p>
+<ul>
+<li><strong>Primary Color</strong>: Used for highlighting key information and serving as the site’s main accent.
+<ul>
+<li>Links</li>
+<li>Tags</li>
+<li>Notices</li>
+<li>Blockquotes</li>
+<li>Inline Code / Verbatim</li>
+<li>Footnote Indicators</li>
+<li>Tables</li>
+<li>Selected Text</li>
+</ul>
+</li>
+<li><strong>Base Colors</strong>: Fundamental colors.
+<ul>
+<li>Foreground</li>
+<li>Background</li>
+</ul>
+</li>
+<li><strong>Secondary Colors</strong>: Used for displaying less important information.
+<ul>
+<li>Summaries</li>
+<li>Footnote Text</li>
+<li>Footer</li>
+<li>Timestamps</li>
+<li>Dividers</li>
+</ul>
+</li>
+</ul>
+<p>So, I designed my website’s appearance using just four colors, all sourced from the Nord Color palette.</p>
+<p>You might have noticed that my website background only features dark-themed colors. That’s because Nord Color was originally designed for dark themes, and switching it to a light theme isn’t as straightforward as it seems. I gave it a try for a while but eventually put it on hold. That said, I’m happy with how it looks now—though I might revisit the idea in the future.</p>
+
+
+</article>
+
+    </main>
+    <footer>
+      <p>&copy; 2024 - 2025 Loyistro. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>

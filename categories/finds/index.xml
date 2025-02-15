@@ -6,8 +6,15 @@
     <description>Recent content in Finds on LOYISTRO</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 09 Feb 2025 16:51:35 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 15 Feb 2025 17:30:08 +0800</lastBuildDate>
     <atom:link href="https://loyistro.github.io/categories/finds/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Define Your Hugo Content Structure and Colors</title>
+      <link>https://loyistro.github.io/posts/250215t171852/</link>
+      <pubDate>Sat, 15 Feb 2025 17:29:00 +0800</pubDate>
+      <guid>https://loyistro.github.io/posts/250215t171852/</guid>
+      <description>Before the next step, it&amp;rsquo;s important to define how to management your content.</description>
+    </item>
     <item>
       <title>Create a New Hugo Theme Skeleton</title>
       <link>https://loyistro.github.io/posts/250209t164638/</link>
