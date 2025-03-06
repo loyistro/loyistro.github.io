@@ -6,8 +6,29 @@
     <description>Recent content in Tags on LOYISTRO</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 15 Feb 2025 17:30:08 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 06 Mar 2025 17:52:17 +0800</lastBuildDate>
     <atom:link href="https://loyistro.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Growth</title>
+      <link>https://loyistro.github.io/tags/growth/</link>
+      <pubDate>Thu, 06 Mar 2025 17:52:00 +0800</pubDate>
+      <guid>https://loyistro.github.io/tags/growth/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Life</title>
+      <link>https://loyistro.github.io/tags/life/</link>
+      <pubDate>Thu, 06 Mar 2025 17:52:00 +0800</pubDate>
+      <guid>https://loyistro.github.io/tags/life/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Video</title>
+      <link>https://loyistro.github.io/tags/video/</link>
+      <pubDate>Thu, 06 Mar 2025 17:52:00 +0800</pubDate>
+      <guid>https://loyistro.github.io/tags/video/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Hugo</title>
       <link>https://loyistro.github.io/tags/hugo/</link>
@@ -34,13 +55,6 @@
       <link>https://loyistro.github.io/tags/history/</link>
       <pubDate>Fri, 17 Jan 2025 16:31:00 +0800</pubDate>
       <guid>https://loyistro.github.io/tags/history/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Life</title>
-      <link>https://loyistro.github.io/tags/life/</link>
-      <pubDate>Sat, 11 Jan 2025 19:03:00 +0800</pubDate>
-      <guid>https://loyistro.github.io/tags/life/</guid>
       <description></description>
     </item>
   </channel>
