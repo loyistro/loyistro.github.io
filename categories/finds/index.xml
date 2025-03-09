@@ -6,8 +6,15 @@
     <description>Recent content in Finds on LOYISTRO</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 15 Feb 2025 17:30:08 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 09 Mar 2025 16:44:24 +0800</lastBuildDate>
     <atom:link href="https://loyistro.github.io/categories/finds/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emacs: 定时任务时间中继器的用法</title>
+      <link>https://loyistro.github.io/posts/20250309t164134/</link>
+      <pubDate>Sun, 09 Mar 2025 16:44:00 +0800</pubDate>
+      <guid>https://loyistro.github.io/posts/20250309t164134/</guid>
+      <description>尝试说明 =+= =++= 和 =.+= 的区别</description>
+    </item>
     <item>
       <title>Define Your Hugo Content Structure and Colors</title>
       <link>https://loyistro.github.io/posts/20250215t171852/</link>

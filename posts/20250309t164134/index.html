@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Emacs: 定时任务时间中继器的用法 | LOYISTRO</title>
+
+
+<link rel="icon" type="image/x-ico" href="favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="favicon/android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+
+
+<link rel="preload" href="https://loyistro.github.io/fonts/BricolageGrotesque[opsz,wdth,wght].woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+<link rel="stylesheet" href="/css/bundle.min.css"
+    integrity="" crossorigin="anonymous">
+<script src="/js/bundle.min.js"
+    integrity="" crossorigin="anonymous" defer>
+</script>
+
+
+<script defer src="https://total.56947876.xyz//totalpv.js" data-website-id="83b97a0f-ef4e-4801-95f1-3e44e5ef0640"></script>
+
+
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="header-title">
+    <a href="/">LOYISTRO</a>
+</span>
+
+<div class="header-bar">
+  
+
+  <button id="menu-toggle" aria-label="Toggle Menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 50 50" fill="currentColor" stroke-width="2.5" stroke="currentColor">
+      <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
+      </svg>
+  </button>
+  <menu id="nav-menu" class="hidden">
+      <a href="https://loyistro.github.io/" class="">
+        Home
+      </a>
+      <a href="https://loyistro.github.io/categories/finds/" class="">
+        Finds
+      </a>
+      <a href="https://loyistro.github.io/categories/musings/" class="">
+        Musings
+      </a>
+      <a href="https://loyistro.github.io/tags/" class="">
+        Tags
+      </a>
+  </menu>
+
+</div>
+
+    </header>
+    <main>
+        
+<article>
+  <h1>Emacs: 定时任务时间中继器的用法</h1>
+
+  
+  
+
+  <div class="post-meta">
+    
+    
+    
+    <time datetime="2025-03-09T16:44:00&#43;08:00">Mar 09, 2025</time>
+  
+    
+    
+      &nbsp; · &nbsp;
+      1 min read
+    
+  
+    
+    &nbsp; · &nbsp;
+    <span class="post-tags">
+      
+      <a href="/tags/emacs/">#Emacs</a>
+  
+    </span>
+  </div>
+
+  <p>Emacs 时间中继器（repeater）的用法，是以两个参考量 <code>预定完成时间</code> 和 <code>当前完成时间</code> 作为比较基准。</p>
+<p>以下将分情况说明，其中，如果 <code>当前完成时间</code> 晚于 <code>预定完成时间</code> ，也即任务截止才完成，以 <strong>加粗</strong> 表示。</p>
+<p><strong>+3d（严格固定周期）</strong></p>
+<ul>
+<li>特性
+<ul>
+<li>任务按照固定的时间间隔（例如每 3 天）</li>
+<li>不管任务何时完成，下一次的预定时间始终基于原始周期</li>
+<li>如果任务未按时完成，会出现“过期”状态，但不会影响后续的预定时间</li>
+</ul>
+</li>
+<li>规则
+<ul>
+<li>下一次预定完成时间 = 上一次预定完成时间 + 3天</li>
+<li>与当前完成时间无关，始终基于上一次的预定完成时间</li>
+</ul>
+</li>
+</ul>
+<table>
+  <thead>
+      <tr>
+          <th>轮次</th>
+          <th>当前完成时间</th>
+          <th>预定完成时间</th>
+          <th>预定完成时间</th>
+          <th>预定完成时间</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>初始</td>
+          <td>-</td>
+          <td>3/2</td>
+          <td>3/9</td>
+          <td>3/16</td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td>3/9</td>
+          <td><strong>3/5</strong></td>
+          <td>3/12</td>
+          <td>3/19</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>3/9</td>
+          <td><strong>3/8</strong></td>
+          <td>3/15</td>
+          <td>3/22</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>3/9</td>
+          <td>3/11</td>
+          <td>3/18</td>
+          <td>3/25</td>
+      </tr>
+  </tbody>
+</table>
+<ol>
+<li>两者不作对比，均按 <code>预定完成时间</code> 计算新一轮的完成时间</li>
+</ol>
+<p><strong>++3d（半灵活且延续周期）</strong></p>
+<ul>
+<li>特性
+<ul>
+<li>确保下一次预定时间始终在完成时间之后</li>
+<li>基于上一次预定时间递推，但会跳过已过去的日期</li>
+<li>适合需要“未来可用时间”的任务</li>
+</ul>
+</li>
+<li>规则
+<ul>
+<li>下一次预定完成时间 = 上一次预定完成时间 + n × 3天</li>
+<li>其中n是最小的正整数，使得新的预定完成时间晚于当前完成时间</li>
+</ul>
+</li>
+</ul>
+<table>
+  <thead>
+      <tr>
+          <th>轮次</th>
+          <th>当前完成时间</th>
+          <th>预定完成时间</th>
+          <th>预定完成时间</th>
+          <th>预定完成时间</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>初始</td>
+          <td>-</td>
+          <td>3/2</td>
+          <td>3/9</td>
+          <td>3/16</td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td>3/9</td>
+          <td>3/11</td>
+          <td>3/12</td>
+          <td>3/19</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>3/9</td>
+          <td>3/14</td>
+          <td>3/15</td>
+          <td>3/22</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>3/9</td>
+          <td>3/17</td>
+          <td>3/18</td>
+          <td>3/25</td>
+      </tr>
+  </tbody>
+</table>
+<ol>
+<li><code>当前完成时间</code> 晚于 <code>预定完成时间</code>
+<ul>
+<li>按 <code>预定完成时间</code> ，且基于预定完成时间，找到晚于当前完成时间的最小日期，计算新一轮的完成时间</li>
+</ul>
+</li>
+<li><code>当前完成时间</code> 等于 <code>预定完成时间</code> ，按 <code>预定完成时间</code> 计算新一轮的完成时间
+<ul>
+<li>按 <code>预定完成时间</code> ，计算新一轮的完成时间</li>
+</ul>
+</li>
+<li><code>当前完成时间</code> 早于 <code>预定完成时间</code> ，按 <code>预定完成时间</code> 计算新一轮的完成时间
+<ul>
+<li>按 <code>预定完成时间</code> ，计算新一轮的完成时间</li>
+</ul>
+</li>
+</ol>
+<p><strong>.+3d（完全灵活）</strong></p>
+<ul>
+<li>特性
+<ul>
+<li>不依赖原始预定时间，每次完成时重新计算</li>
+<li>任务的周期完全由用户的实际完成时间决定</li>
+<li>不会自动生成多个未来任务，只在完成时更新一次务</li>
+</ul>
+</li>
+<li>规则
+<ul>
+<li>下一次预定完成时间 = 当前完成时间 + 3天</li>
+<li>直接基于当前完成时间计算，不考虑上一次的预定完成时间</li>
+</ul>
+</li>
+</ul>
+<table>
+  <thead>
+      <tr>
+          <th>轮次</th>
+          <th>当前完成时间</th>
+          <th>预定完成时间</th>
+          <th>预定完成时间</th>
+          <th>预定完成时间</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>初始</td>
+          <td>-</td>
+          <td>3/2</td>
+          <td>3/9</td>
+          <td>3/16</td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td>3/9</td>
+          <td>3/12</td>
+          <td>3/12</td>
+          <td>3/12</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>3/9</td>
+          <td>3/12</td>
+          <td>3/12</td>
+          <td>3/12</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>3/9</td>
+          <td>3/12</td>
+          <td>3/12</td>
+          <td>3/12</td>
+      </tr>
+  </tbody>
+</table>
+<ol>
+<li><code>当前完成时间</code> 晚于 <code>预定完成时间</code>
+<ul>
+<li>按 <code>当前完成时间</code> ，计算新一轮的完成时间</li>
+</ul>
+</li>
+<li><code>当前完成时间</code> 等于 <code>预定完成时间</code>
+<ul>
+<li>按 <code>当前完成时间</code> ，计算新一轮的完成时间</li>
+</ul>
+</li>
+<li><code>当前完成时间</code> 早于 <code>预定完成时间</code>
+<ul>
+<li>按 <code>当前完成时间</code> ，计算新一轮的完成时间</li>
+</ul>
+</li>
+</ol>
+
+
+</article>
+
+    </main>
+    <footer>
+      <p>&copy; 2024 - 2025 Loyistro. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>

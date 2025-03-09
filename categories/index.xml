@@ -6,21 +6,21 @@
     <description>Recent content in Categories on LOYISTRO</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 07 Mar 2025 09:33:10 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 09 Mar 2025 16:44:24 +0800</lastBuildDate>
     <atom:link href="https://loyistro.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Finds</title>
+      <link>https://loyistro.github.io/categories/finds/</link>
+      <pubDate>Sun, 09 Mar 2025 16:44:00 +0800</pubDate>
+      <guid>https://loyistro.github.io/categories/finds/</guid>
+      <description>&lt;p&gt;Guides, references, and tips on tools I’ve explored or topics of interest.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Musings</title>
       <link>https://loyistro.github.io/categories/musings/</link>
       <pubDate>Thu, 06 Mar 2025 17:52:00 +0800</pubDate>
       <guid>https://loyistro.github.io/categories/musings/</guid>
       <description>&lt;p&gt;Musings on life, ideas, and other wanderings.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Finds</title>
-      <link>https://loyistro.github.io/categories/finds/</link>
-      <pubDate>Sat, 15 Feb 2025 17:29:00 +0800</pubDate>
-      <guid>https://loyistro.github.io/categories/finds/</guid>
-      <description>&lt;p&gt;Guides, references, and tips on tools I’ve explored or topics of interest.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Category 1</title>
