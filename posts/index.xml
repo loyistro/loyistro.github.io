@@ -1,12 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on LOYISTRO</title>
+    <title>Blog on Loyistro&#39;s Website</title>
     <link>https://loyistro.github.io/posts/</link>
-    <description>Recent content in Blog on LOYISTRO</description>
+    <description>Recent content in Blog on Loyistro&#39;s Website</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Fri, 14 Mar 2025 11:16:52 +0800</lastBuildDate>
     <atom:link href="https://loyistro.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Crew Of Cool And Hardworking Folks</title>
+      <link>https://loyistro.github.io/posts/a-crew-of-cool-and-hardworking-folks/</link>
+      <pubDate>Thu, 13 Mar 2025 16:33:00 +0800</pubDate>
+      <guid>https://loyistro.github.io/posts/a-crew-of-cool-and-hardworking-folks/</guid>
+      <description>Come on! New season of Earth Arcade!</description>
+    </item>
+    <item>
+      <title>How To Use Emacs Time Repeater</title>
+      <link>https://loyistro.github.io/posts/how-to-use-emacs-time-repeater/</link>
+      <pubDate>Sun, 09 Mar 2025 16:44:00 +0800</pubDate>
+      <guid>https://loyistro.github.io/posts/how-to-use-emacs-time-repeater/</guid>
+      <description>Comparison of different time repeaters</description>
+    </item>
+    <item>
+      <title>Norway&#39;s 100-Year-Old Postal Package</title>
+      <link>https://loyistro.github.io/posts/norways-100-year-old-postal-package/</link>
+      <pubDate>Fri, 17 Jan 2025 16:31:00 +0800</pubDate>
+      <guid>https://loyistro.github.io/posts/norways-100-year-old-postal-package/</guid>
+      <description>What’s the best way to wrap up a major event? Throw a party!</description>
+    </item>
+    <item>
+      <title>The Essence Of Non-Compliance Is Competition For Resources</title>
+      <link>https://loyistro.github.io/posts/the-essence-of-non-compliance-is-competition-for-resources/</link>
+      <pubDate>Sat, 11 Jan 2025 19:03:00 +0800</pubDate>
+      <guid>https://loyistro.github.io/posts/the-essence-of-non-compliance-is-competition-for-resources/</guid>
+      <description>Biological instincts cannot be overcome.</description>
+    </item>
+    <item>
+      <title>What Travel Means To Me</title>
+      <link>https://loyistro.github.io/posts/what-travel-means-to-me/</link>
+      <pubDate>Tue, 24 Dec 2024 18:50:00 +0800</pubDate>
+      <guid>https://loyistro.github.io/posts/what-travel-means-to-me/</guid>
+      <description>Perhaps it’s better to view others’ world from a third-party perspective.</description>
+    </item>
   </channel>
 </rss>
